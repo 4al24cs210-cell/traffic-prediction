@@ -1,0 +1,38 @@
+data:
+  processed_path: data/processed/features.csv
+  raw_path: data/raw/sample_traffic.csv
+  scaler_path: models/scaler.pkl
+features:
+  columns:
+  - day_of_week
+  - is_holiday
+  - temperature
+  - weather_code
+  - hour
+  - month
+  - quarter
+  - is_weekend
+  - hour_sin
+  - hour_cos
+  - vehicle_count_lag_1
+  - vehicle_count_lag_2
+  - vehicle_count_lag_4
+  - vehicle_count_lag_8
+  - vehicle_count_roll_mean_4
+  - vehicle_count_roll_std_4
+  - vehicle_count_roll_mean_12
+  - vehicle_count_roll_std_12
+  target: vehicle_count
+model:
+  save_path: models/model.pkl
+  type: random_forest
+random_forest:
+  max_depth: 8
+  n_estimators: 50
+reports:
+  metrics_path: reports/metrics.json
+  predictions_plot: reports/prediction_vs_actual.png
+  residuals_plot: reports/residuals.png
+training:
+  random_seed: 42
+  test_split: 0.2

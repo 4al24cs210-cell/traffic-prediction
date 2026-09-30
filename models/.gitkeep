@@ -1,0 +1,2 @@
+# models/ — saved model artifacts (.pkl, .pt)
+# This directory is created at runtime by train.py.

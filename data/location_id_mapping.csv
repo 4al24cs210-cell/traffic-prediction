@@ -1,0 +1,6 @@
+location_id,country,state,district,sub_district,village,notes
+LOC_01,India,Karnataka,Bengaluru Urban,Bengaluru North,,DEMO — synthetic data; geographic assignment is illustrative only
+LOC_02,India,Karnataka,Mysuru,Mysuru,,DEMO — synthetic data; geographic assignment is illustrative only
+LOC_03,India,Karnataka,Dakshina Kannada,Mangaluru,,DEMO — synthetic data; geographic assignment is illustrative only
+LOC_04,India,Karnataka,Belagavi,Belagavi,,DEMO — synthetic data; geographic assignment is illustrative only
+LOC_05,India,Karnataka,Shivamogga,Shivamogga,,DEMO — synthetic data; geographic assignment is illustrative only
